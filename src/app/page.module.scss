@@ -1,0 +1,43 @@
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 126px;
+  width: 88%;
+  height: 152vh;
+  border-left: 3px solid #d9d4c3;
+  border-right: 3px solid #d9d4c3;
+  margin: 20px 0;
+  margin-left: 102px;
+  overflow: hidden;
+}
+
+.seprater {
+  position: absolute;
+  display: block;
+  top: 327px;
+  left: 767px;
+  height: 200px;
+  border-left: 3px solid #d9d4c3; /* Set the line thickness and color */
+  border-right: 3px solid #d9d4c3;
+  width: 20px; /* Set the width to 100% for a horizontal line */
+  margin: 20px 0;
+}
+
+.topLine {
+  position: absolute;
+  display: block;
+  top: 193px;
+  border-top: 3px solid #d9d4c3; /* Set the line thickness and color */
+  width: 100%; /* Set the width to 100% for a horizontal line */
+  margin: 20px 0;
+}
+
+.bottomLine {
+  position: absolute;
+  display: block;
+  top: 1545px;
+  border-top: 3px solid #d9d4c3; /* Set the line thickness and color */
+  width: 100%; /* Set the width to 100% for a horizontal line */
+  margin: 20px 0;
+}

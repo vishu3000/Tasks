@@ -1,0 +1,28 @@
+import BarChart from "@/Components/Helper/Helper";
+import styles from "./Graph.module.scss";
+
+export const Graph = () => {
+  return (
+    <div className={styles.overviewContainer}>
+      <div className={styles.heading}>
+        <span className={styles.customHeading}>Graph</span>
+        <svg
+          width="135"
+          height="16"
+          viewBox="0 0 135 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            id="Arrow 3"
+            d="M119 8C119 12.4183 122.582 16 127 16C131.418 16 135 12.4183 135 8C135 3.58172 131.418 0 127 0C122.582 0 119 3.58172 119 8ZM0 9.5H127V6.5H0V9.5Z"
+            fill="#EBE671"
+          />
+        </svg>
+      </div>
+      <div className={styles.barDiv}>
+        <BarChart />
+      </div>
+    </div>
+  );
+};

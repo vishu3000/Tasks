@@ -1,0 +1,47 @@
+.overviewContainer {
+  position: absolute;
+  top: 145px;
+  left: 155px;
+  .heading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    margin-left: 26px;
+    .customHeading {
+      color: #ebe671;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  .overiewBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 474px;
+    height: 432px;
+    border-radius: 21px;
+    background: #d9d4c3;
+    .pointers {
+      margin-left: 66px;
+      margin-bottom: 37px;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .blue {
+      color: #97aec9;
+    }
+    .red {
+      color: #c99a97;
+    }
+    .green {
+      color: #88cf87;
+    }
+    .black {
+      color: #6d6665;
+    }
+  }
+}

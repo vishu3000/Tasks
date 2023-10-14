@@ -1,0 +1,96 @@
+.overviewContainer {
+  position: absolute;
+  top: 791px;
+  left: 146px;
+  .heading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    margin-left: 26px;
+    .customHeading {
+      color: #ebe671;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  .boxContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 1581px;
+    height: 476px;
+    border-radius: 21px;
+    background: #d9d4c3;
+
+    .miniContainer {
+      display: flex;
+      flex-direction: column;
+      width: 277px;
+      height: 100%;
+
+      align-items: center;
+      padding: 10px;
+      .customHeading {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 19px;
+      }
+      .blue {
+        color: #97aec9;
+      }
+      .green {
+        color: #88cf87;
+      }
+      .red {
+        color: #c99a97;
+      }
+      .black {
+        color: #6d6665;
+      }
+      .blueBg {
+        background-color: #aab6d2;
+      }
+      .greenBg {
+        background-color: #88cf87;
+      }
+      .redBg {
+        background-color: #d2b8aa;
+      }
+      .blackBg {
+        background-color: #958e8d;
+      }
+      .TaskContainer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 24px;
+        height: 13%;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+        /* Hide the default checkbox input */
+        .customCheckbox {
+          margin-left: 20px;
+          font-size: 23px;
+          font-style: normal;
+          font-weight: 700;
+          color: #4d4b4b;
+          line-height: normal;
+          /* Define the custom checkbox style */
+        }
+        .checkmark {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background-color: #ccc;
+          border: 1px solid #666;
+          border-radius: 3px;
+          margin-left: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

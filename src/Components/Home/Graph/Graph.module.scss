@@ -1,0 +1,28 @@
+.overviewContainer {
+  position: absolute;
+  top: 145px;
+  left: 917px;
+  .heading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    margin-left: 26px;
+    .customHeading {
+      color: #ebe671;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  .barDiv {
+    display: inline-flex;
+    padding: 36px 13px 20px 0px;
+    align-items: center;
+    border-radius: 19px;
+    background: #d9d4c3;
+    width: 716px;
+    height: 376px;
+    padding: 50px;
+  }
+}

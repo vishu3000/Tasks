@@ -1,0 +1,44 @@
+.main {
+  position: absolute;
+  display: flex;
+  top: 50px;
+  left: 689px;
+  width: 552px;
+  height: 66px;
+  border-bottom: 1px solid #f1e1e1;
+  background: #363535;
+
+  .navText {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .Home {
+    display: flex;
+    justify-content: center;
+    width: 153px;
+    height: 43px;
+    border-right: 2px solid #f1e1e1;
+    background: #363535;
+  }
+
+  .Lists {
+    display: flex;
+    justify-content: center;
+    width: 153px;
+    height: 43px;
+    background: #363535;
+  }
+
+  .Templates {
+    display: flex;
+    justify-content: center;
+    width: 181px;
+    height: 43px;
+    border-left: 2px solid #f1e1e1;
+    background: #363535;
+  }
+}
