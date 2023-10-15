@@ -1,0 +1,36 @@
+.parentContainer {
+  display: flex;
+  flex-direction: column;
+  width: 407px;
+  height: 537px;
+  border-radius: 21px;
+  background: #d9d4c3;
+  padding: 20px;
+  border: 7px solid #a40b35;
+  .taskName {
+    color: #6d6665;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 60px;
+    margin-bottom: 10px;
+  }
+  .PointerContainer {
+    margin-top: 20px;
+    .pointer {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      height: 53px;
+      width: 95%;
+      margin-left: 8px;
+    }
+    .colorP {
+      background: rgba(202, 201, 184, 0.92);
+    }
+    .colorS {
+      background: rgba(167, 177, 110, 0.55);
+    }
+  }
+}
