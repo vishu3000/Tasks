@@ -18,8 +18,30 @@ export const List = () => {
       </svg>
       {/* Loop */}
       <div className={styles.PointerContainer}>
-        <div className={`${styles.pointer} ${styles.colorP}`}>Pointer</div>
-        <div className={`${styles.pointer} ${styles.colorS}`}>Pointer</div>
+        <div className={`${styles.pointer} ${styles.colorP}`}>
+          <span className={styles.Text}>Pointer</span>
+        </div>
+        <div className={`${styles.pointer} ${styles.colorS}`}>
+          <span className={styles.Text}>Pointer</span>
+        </div>
+        <div className={`${styles.pointer} ${styles.colorP}`}>
+          <span className={styles.Text}>Pointer</span>
+        </div>
+        <div className={`${styles.pointer} ${styles.colorS}`}>
+          <span className={styles.Text}>Pointer</span>
+        </div>
+        <div className={`${styles.pointer} ${styles.colorP}`}>
+          <span className={styles.Text}>Pointer</span>
+        </div>
+        <div className={`${styles.pointer} ${styles.colorS}`}>
+          <span className={styles.Text}>Pointer</span>
+        </div>
+        <div className={`${styles.pointer} ${styles.colorP}`}>
+          <span className={styles.Text}>Pointer</span>
+        </div>
+        <div className={`${styles.pointer} ${styles.colorS}`}>
+          <span className={styles.Text}>Pointer</span>
+        </div>
       </div>
     </div>
   );

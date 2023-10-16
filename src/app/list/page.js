@@ -23,6 +23,12 @@ export default function page() {
       </svg>
       <div className={styles.listContainer}>
         <List />
+        <List />
+        <List />
+        <List />
+        <List />
+        <List />
+        <List />
       </div>
     </div>
   );

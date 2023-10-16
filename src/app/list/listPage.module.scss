@@ -33,7 +33,8 @@
   .listContainer {
     position: absolute;
     display: flex;
-    border: 3px solid #d9d4c3;
+    justify-content: space-around;
+    flex-wrap: wrap;
     height: 150vh;
     width: 80%;
     top: 203px;
