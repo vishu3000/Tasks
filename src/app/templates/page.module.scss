@@ -1,0 +1,53 @@
+.parentContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 155px;
+
+  .svg {
+    margin-left: 200px;
+  }
+  .parentTemplates {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -92px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+    .parentTemplate {
+      position: relative;
+      background: #d9d4c3;
+      padding: 20px;
+      width: fit-content;
+      border-radius: 21px;
+      .parentName {
+        color: #a40b35;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .templateList {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1400px;
+        div {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+  .listContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 150vh;
+    width: 80%;
+    margin-left: 250px;
+  }
+}

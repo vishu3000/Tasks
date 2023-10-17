@@ -1,9 +1,11 @@
 import styles from "./List.module.scss";
 
-export const List = () => {
+export const List = ({ isTemplate = false }) => {
   return (
     <div className={styles.parentContainer}>
-      <div className={styles.taskName}>Dummy Task || 123</div>
+      <div className={styles.taskName}>
+        Dummy Task {!isTemplate && `|| 123`}
+      </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="390"

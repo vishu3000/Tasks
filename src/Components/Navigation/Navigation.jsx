@@ -10,13 +10,23 @@ export const Navigation = () => {
         </Link>
       </div>
       <div className={styles.Lists}>
-        <Link href="/" className={styles.navText}>
+        <Link href="/list" className={styles.navText}>
           Lists
         </Link>
       </div>
       <div className={styles.Templates}>
-        <Link href="/" className={styles.navText}>
+        <Link href="/templates" className={styles.navText}>
           Templates
+        </Link>
+      </div>
+      <div className={styles.Templates}>
+        <Link href="/templates" className={styles.navText}>
+          modify
+        </Link>
+      </div>
+      <div className={styles.Templates}>
+        <Link href="/templates" className={styles.navText}>
+          new
         </Link>
       </div>
     </div>

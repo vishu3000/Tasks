@@ -1,6 +1,6 @@
-import { List } from "@/Components/Lists/List/List";
-import styles from "./listPage.module.scss";
 import { Buttons } from "@/Components/Buttons/Buttons";
+import styles from "./page.module.scss";
+import { List } from "@/Components/Lists/List/List";
 
 export default function page() {
   return (
@@ -20,14 +20,21 @@ export default function page() {
           fill="#D9D4C3"
         />
       </svg>
+
+      <div className={styles.parentTemplates}>
+        <div className={styles.parentTemplate}>
+          <span className={styles.parentName}>Parent Template</span>
+          <div className={styles.templateList}>
+            <List isTemplate={true} />
+            <List isTemplate />
+            <List isTemplate />
+          </div>
+        </div>
+      </div>
       <div className={styles.listContainer}>
-        <List />
-        <List />
-        <List />
-        <List />
-        <List />
-        <List />
-        <List />
+        <List isTemplate />
+        <List isTemplate />
+        <List isTemplate />
       </div>
     </div>
   );

@@ -1,0 +1,69 @@
+.parentOne {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  .heading {
+    color: #756f6f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .inputOne {
+    width: 341px;
+    height: 87px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #cec5c5;
+  }
+  .inputTwo {
+    width: 341px;
+    display: flex;
+    justify-content: space-between;
+    .selector {
+      width: 88px;
+      height: 38px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #cec5c5;
+    }
+    .selectorMain {
+      width: 233px;
+      height: 38px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #cec5c5;
+    }
+  }
+  .inputThree {
+    width: 88px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #cec5c5;
+  }
+}
+
+.parentTwo {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  margin: 20px;
+
+  .heading {
+    color: #756f6f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 10px;
+  }
+  .inputFour {
+    width: 233px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #cec5c5;
+  }
+}

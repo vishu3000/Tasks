@@ -1,0 +1,59 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 1325px;
+  height: 897px;
+  border-radius: 27px;
+  background: #efdede;
+  .modalHeading {
+    position: relative;
+    left: 535px;
+    top: 32px;
+    color: #554848;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 81px;
+  }
+  .formConatiner {
+    position: relative;
+    display: flex;
+    left: 268px;
+  }
+  .submitContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    top: 86px;
+    left: 433px;
+    .cancel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 186px;
+      height: 78px;
+      flex-shrink: 0;
+      border-radius: 20px;
+      background: #ec3f3f;
+    }
+    .create {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 186px;
+      height: 78px;
+      flex-shrink: 0;
+      border-radius: 20px;
+      background: #3f5aec;
+    }
+    .submitText {
+      color: #f0e8e8;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+}
