@@ -1,20 +1,33 @@
 import styles from "./Inputs.module.scss";
 
-export const TypeOne = ({ name }) => {
+export const TypeOne = (props) => {
+  const { label, name, onChange, value } = props;
   return (
     <div className={styles.parentOne}>
-      <span className={styles.heading}>{name}</span>
-      <div className={styles.inputOne}></div>
+      <label className={styles.heading}>{label}</label>
+      <input
+        className={styles.inputOne}
+        type="text"
+        name={name}
+        onChange={onChange}
+        value={value}
+      />
     </div>
   );
 };
-export const TypeTwo = ({ name }) => {
+export const TypeTwo = (props) => {
+  const { label, name, onChange, value } = props;
   return (
     <div className={styles.parentOne}>
-      <span className={styles.heading}>{name}</span>
+      <label className={styles.heading}>{label}</label>
       <div className={styles.inputTwo}>
-        <div className={styles.selector}></div>
-        <div className={styles.selectorMain}></div>
+        <input
+          className={styles.selectorMain}
+          type="text"
+          name={name}
+          onChange={onChange}
+          value={value}
+        />
       </div>
     </div>
   );

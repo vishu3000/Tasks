@@ -1,0 +1,102 @@
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 103px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.4);
+  .mainContainer {
+    position: relative;
+    display: flex;
+    left: 331px;
+    flex-direction: column;
+    width: 1200px;
+    height: 707px;
+    border-radius: 27px;
+    background: #efdede;
+    justify-content: center;
+    align-items: center;
+    .modalHeading {
+      position: relative;
+      // left: 535px;
+      // top: 32px;
+      color: #554848;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 50px;
+    }
+    .formConatiner {
+      position: relative;
+      display: flex;
+      // left: 268px;
+      flex-direction: row;
+      .add {
+        position: relative;
+        margin-top: 5px;
+        left: 18px;
+        width: 66px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 12px;
+        background: #fa4343;
+
+        .addText {
+          color: #fff;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin-left: 15px;
+        }
+      }
+    }
+    .submitContainer {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      width: 400px;
+      // top: 86px;
+      left: 169px;
+      margin-top: 41px;
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      .cancel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 186px;
+        height: 78px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #ec3f3f;
+        cursor: pointer;
+      }
+      .create {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 186px;
+        height: 78px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #3f5aec;
+        cursor: pointer;
+      }
+      .submitText {
+        color: #f0e8e8;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: none;
+        border: none;
+      }
+    }
+  }
+}

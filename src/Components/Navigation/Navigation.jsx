@@ -19,16 +19,6 @@ export const Navigation = () => {
           Templates
         </Link>
       </div>
-      <div className={styles.Templates}>
-        <Link href="/templates" className={styles.navText}>
-          modify
-        </Link>
-      </div>
-      <div className={styles.Templates}>
-        <Link href="/templates" className={styles.navText}>
-          new
-        </Link>
-      </div>
     </div>
   );
 };

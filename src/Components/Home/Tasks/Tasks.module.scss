@@ -89,6 +89,18 @@
           border-radius: 3px;
           margin-left: 10px;
           cursor: pointer;
+          &.redCB {
+            background-color: #af5454;
+          }
+          &.blueCB {
+            background-color: #5474af;
+          }
+          &.greenCB {
+            background-color: #54af5d;
+          }
+          &.blackCB {
+            background-color: #373737;
+          }
         }
       }
     }

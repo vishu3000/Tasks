@@ -1,27 +1,12 @@
-import styles from "./Overview.module.scss";
+"use client";
 
-export const Overview = (props) => {
-  const { data } = props;
-  const dataCounter = () => {
-    let dataObject = {
-      active: 0,
-      toPick: 0,
-      done: 0,
-      approved: 0,
-    };
-    data.map((ele) => {
-      if (ele.Category === "Active") {
-        dataObject.active++;
-      } else if (ele.Category === "ToPick") {
-        dataObject.toPick++;
-      } else if (ele.Category === "Done") {
-        dataObject.done++;
-      } else {
-        dataObject.approved++;
-      }
-    });
-    return dataObject;
-  };
+import { dataCounter } from "@/utils";
+import styles from "./Overview.module.scss";
+import { useContext } from "react";
+import { Context } from "@/Context";
+
+export const Overview = () => {
+  const { homeData } = useContext(Context);
 
   return (
     <div className={styles.overviewContainer}>
@@ -46,16 +31,16 @@ export const Overview = (props) => {
 
       <div className={styles.overiewBox}>
         <span className={`${styles.pointers} ${styles.blue}`}>
-          Active : {dataCounter().active}
+          Active : {dataCounter(homeData).active}
         </span>
         <span className={`${styles.pointers} ${styles.red}`}>
-          To Pick : {dataCounter().toPick}
+          To Pick : {dataCounter(homeData).toPick}
         </span>
         <span className={`${styles.pointers} ${styles.green}`}>
-          Done : {dataCounter().done}
+          Done : {dataCounter(homeData).done}
         </span>
         <span className={`${styles.pointers} ${styles.black}`}>
-          Approved : {dataCounter().approved}
+          Approved : {dataCounter(homeData).approved}
         </span>
       </div>
     </div>

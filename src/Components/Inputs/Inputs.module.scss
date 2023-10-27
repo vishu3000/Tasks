@@ -16,24 +16,29 @@
     flex-shrink: 0;
     border-radius: 5px;
     background: #cec5c5;
+    border-width: 0px;
+    font-size: 24px;
   }
   .inputTwo {
     width: 341px;
     display: flex;
     justify-content: space-between;
-    .selector {
-      width: 88px;
-      height: 38px;
-      flex-shrink: 0;
-      border-radius: 5px;
-      background: #cec5c5;
-    }
+    flex-direction: column;
+    // .selector {
+    //   width: 88px;
+    //   height: 38px;
+    //   flex-shrink: 0;
+    //   border-radius: 5px;
+    //   background: #cec5c5;
+    // }
+
     .selectorMain {
-      width: 233px;
+      width: 341px;
       height: 38px;
       flex-shrink: 0;
       border-radius: 5px;
       background: #cec5c5;
+      border-width: 0px;
     }
   }
   .inputThree {
